@@ -2,7 +2,9 @@
 
 Modify account Ids before running scripts
 
-1) Use apply.sh for provisioning resources, it has terraform commands: terraform init, validate, plan and apply
+1) give execution permission to apply.sh
+   Use apply.sh for provisioning resources, it has terraform commands: terraform init, validate, plan and apply
+give execution permission to destroy.sh
 Use deploy.sh for destroying resources, it has terraform destroy command
 or 
 you can use
@@ -21,7 +23,8 @@ terraform apply -auto-approve
 
 terraform destroy to destroy resources 
 
-2) Use script.sh for accessing Bucket in account 1111111111 from account 000000000000 instead of cli commands
+2) give execution permission to script.sh
+   Use script.sh for accessing Bucket in account 1111111111 from account 000000000000 instead of cli commands
 
 
 
